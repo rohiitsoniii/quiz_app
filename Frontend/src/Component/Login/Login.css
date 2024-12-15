@@ -1,0 +1,117 @@
+.main_login {
+    background-color: #F2F2F2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+}
+
+.all_content {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.Quiz_parent {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Quiz {
+    font-size: 70px;
+    font-weight: 600;
+    color: #474444;
+    margin: 0;
+}
+
+.btns {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 90px;
+    margin-top: 40px;
+
+
+
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.active {
+    background-color: white;
+    box-shadow: 0 0 30px rgba(169, 169, 190, 0.5);
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.email_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+
+}
+
+.email {
+    font-size: 20px;
+    font-weight: 600;
+    color: #474444;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+.input {
+
+    width: 350px;
+    height: 30px;
+    border: none;
+    background-color: #F4F4F4;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px 0px;
+    font-size: 14px;
+
+}
+
+.Login {
+    background-color: #A9BCFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 300px;
+    font-weight: 600;
+    color: #474444;
+    margin-bottom: 30px;
+
+}
+
+.ppr {
+    height: 90%;
+    margin: 0 auto;
+}

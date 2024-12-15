@@ -1,0 +1,87 @@
+
+.Signup {
+    background-color: #A9BCFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+    width: 300px;
+    font-weight: 600;
+    color: #474444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 30ppx;
+}
+
+.weak {
+    color: rgb(207, 7, 7);
+}
+.intermediate {
+    color: rgb(146, 146, 11);
+}
+
+.strong {
+    color: rgb(9, 77, 9);
+}
+.input::placeholder {
+    color: red;
+  
+    font-size: small;
+    font-weight: 500;
+
+}
+.strength {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: red;
+}
+
+.error{
+    color: red;
+}
+
+.signup_main_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_filed_text {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.input_filed_text p {
+    margin-right: 10px; 
+    width: 200px; 
+    text-align: right; 
+    font-size: 20px;
+    font-weight: 600;
+    color: #474444;
+    margin-right: 10px;
+    text-wrap: nowrap;
+}
+
+ .input_filed_text input {
+    width: 350px;
+    height: 30px;
+    border: none;
+    background-color: #F4F4F4;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.inner_input_div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
